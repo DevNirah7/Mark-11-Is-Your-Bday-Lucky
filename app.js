@@ -34,6 +34,7 @@ checkBtn.addEventListener("click", function validate()
     {
         hide(sadimg);
         hide(happyimg);
+        show(resultTxt);
         resultTxt.innerText = "Kindly enter a positive value as lucky number";
     }
     
@@ -41,12 +42,14 @@ checkBtn.addEventListener("click", function validate()
     {
     var s = sumOfDate(birthDate.value);
     if (s % (luckyNumber.value) === 0) {
+        show(resultTxt);
         resultTxt.innerText = "YAAY!!! YOUR BIRTHDAY IS LUCKY!!!";
         show(happyimg);
         hide(sadimg);
 
 
     } else {
+        show(resultTxt);
         resultTxt.innerText = "SAD, YOUR BIRTHDAY IS NOT THAT LUCKY!";
         show(sadimg);
         hide(happyimg);
