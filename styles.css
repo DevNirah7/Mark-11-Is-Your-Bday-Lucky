@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --primary-color: #443266;
+    --secondary-color: #8C489F;
+    --tertiary-color: #C3C3E5;
+    --light-color: #F1F0FF;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 2rem;
+
+}
+
+h3
+{
+    font-size: 1.4rem;
+
+}
+
+.container {
+    max-width: 100vh;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+#title
+{
+    font-family: 'Lobster', cursive;
+    margin-top: 1rem;
+    text-align: center;
+    color:black;
+    font-weight: lighter;
+    
+    
+}
+
+#check-label-one
+{
+    margin-top: 1rem;
+    padding: 0rem;
+    text-align: center;
+    color:var(--tertiary-color);
+}
+
+#check-label-two
+{
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    padding: 0rem;
+    text-align: center;
+    color:var(--primary-color);
+}
+
+label {
+    margin-bottom: 1px;
+    padding: 1rem;
+    color:var(--light-color);
+    display: block;
+}
+
+input {
+    padding: 0.75rem;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    width: 50%;
+    border: 2px solid var(--primary-color);
+}
+
+#check-btn {
+
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 0px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color:var(--light-color);
+    font-size: 1rem;
+    font-weight: bold;
+ 
+}
+
+#result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    background-color: var(--tertiary-color);
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+img
+{
+    margin: auto;
+    max-width: 50%;
+}
+
+.footer
+{
+    background-color:var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer ul
+{
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+
