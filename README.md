@@ -10,7 +10,8 @@ Application accepts the birthday of the user and their lucky number as input. Va
 3. CSS
 
 ## Project link :
-https://cashregister-devnirah.netlify.app/
+https://is-your-bday-lucky-devnirah.netlify.app/
+
 
 
 
